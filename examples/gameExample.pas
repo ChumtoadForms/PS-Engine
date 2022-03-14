@@ -33,7 +33,7 @@ begin
   case ikey of
 	vk_up: ; 	// up arrow
 	vk_down: ; 	// down arrow
-	vk_right: ; // right arrow
+	vk_right: ; 	// right arrow
 	vk_left: ; 	// left arrow
   end;
 end;
