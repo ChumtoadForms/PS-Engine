@@ -1,5 +1,5 @@
-﻿// PsEngine is a game engine written on Pascal by rogender (also known as keyboardcrash)
-// Current version - 0.1
+// PsEngine is a game engine written on Pascal by rogender (also known as keyboardcrash)
+// Current version - 0.2
 // If you have any questions then feel free to ask them to me (Discord - keyboardcrash#7833)
 
 unit PsEngine;
