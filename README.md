@@ -10,6 +10,6 @@ If you have any questions then feel free to ask them to me (Discord - keyboardcr
 - Put this file to "PascalABCNet root folder\LibSource"
 - Write "uses PsEngine" to your script
 
-(uses)[https://github.com/rogender/PS-Engine/blob/main/screenshots/uses.png]
+[uses](https://github.com/rogender/PS-Engine/blob/main/screenshots/uses.png)
 
 Done!
