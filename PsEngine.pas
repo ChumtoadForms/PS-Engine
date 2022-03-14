@@ -6,7 +6,7 @@ unit PsEngine;
 
 interface
   uses
-    GraphABC, ABCObjects, timers; 
+    GraphABC, ABCObjects, timers, System.Media; 
   
   var
     tim:timer;
@@ -18,6 +18,7 @@ interface
   procedure MainLoop(ms:integer;upd:procedure);
   procedure InitMouse(mousemv,mousedwn,mouseup:procedure(x,y,mb:integer));
   procedure InitKeyboard(keydwn,keyup:procedure(key:integer));
+  procedure Sound(hz,time:integer);
   
 
 implementation
@@ -60,6 +61,11 @@ implementation
   begin
     OnKeyDown := keydwn;
     OnKeyUp   := keyup;
+  end;
+  
+  procedure Sound(hz,time:integer);
+  begin
+    System.Console.Beep(hz,time);
   end;
 
 end.
