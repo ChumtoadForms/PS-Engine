@@ -8,5 +8,6 @@ If you have any questions then feel free to ask them to me (Discord - keyboardcr
 ## Installation
 - Download the script - https://github.com/rogender/PS-Engine/blob/main/PsEngine.pas
 - Put this file to "PascalABCNet root folder\LibSource"
+- Write "uses PsEngine" to your script
 
 Done!
